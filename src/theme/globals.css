@@ -7,8 +7,7 @@
   --color-primary-900: #1d42a0;
 }
 
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/preflight";
 @tailwind utilities;
 
 @layer base {

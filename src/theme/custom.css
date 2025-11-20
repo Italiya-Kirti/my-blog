@@ -1,5 +1,5 @@
 /*TODO NEED TO REMOVE THIS IN FEATURE*/
-@tailwind base;
+@import "tailwindcss/preflight";
 
 :root {
   /* --color-primary: theme(colors.primary.600); */
