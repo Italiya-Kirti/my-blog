@@ -1,0 +1,497 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Basic Typography styles */
+  .text48Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.48);
+    line-height: theme(lineHeight.120);
+  }
+  .text40Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.40);
+    line-height: theme(lineHeight.120);
+  }
+  .text36Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.36);
+    line-height: theme(lineHeight.120);
+  }
+  .text32Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.32);
+    line-height: theme(lineHeight.120);
+  }
+  .text32Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.32);
+    line-height: theme(lineHeight.120);
+  }
+  .text24Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.24);
+    line-height: theme(lineHeight.120);
+  }
+  .text24Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.24);
+    line-height: theme(lineHeight.120);
+  }
+  .text24Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.24);
+    line-height: theme(lineHeight.120);
+  }
+  .text22Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.22);
+    line-height: theme(lineHeight.120);
+  }
+  .text20Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.20);
+    line-height: theme(lineHeight.120);
+  }
+  .text20Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.20);
+    line-height: theme(lineHeight.120);
+  }
+  .text20Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.20);
+    line-height: theme(lineHeight.120);
+  }
+  .text18Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.18);
+    line-height: theme(lineHeight.120);
+  }
+  .text18Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.18);
+    line-height: theme(lineHeight.120);
+  }
+  .text16Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.16);
+    line-height: theme(lineHeight.120);
+  }
+  .text16Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.16);
+    line-height: theme(lineHeight.120);
+  }
+  .text16Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.16);
+    line-height: theme(lineHeight.120);
+  }
+  .text16Uppercase {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.16);
+    line-height: theme(lineHeight.120);
+    letter-spacing: theme(letterSpacing.regular);
+    text-transform: uppercase;
+  }
+  .text15Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.15);
+    line-height: theme(lineHeight.120);
+  }
+  .text15Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.15);
+    line-height: theme(lineHeight.120);
+  }
+  .text15Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.15);
+    line-height: theme(lineHeight.120);
+  }
+  .text14Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.14);
+    line-height: theme(lineHeight.120);
+  }
+  .text14Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.14);
+    line-height: theme(lineHeight.120);
+  }
+  .text14Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.14);
+    line-height: theme(lineHeight.120);
+  }
+  .text14Uppercase {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.14);
+    line-height: theme(lineHeight.120);
+    letter-spacing: theme(letterSpacing.regular);
+    text-transform: uppercase;
+  }
+  .text13Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.13);
+    line-height: theme(lineHeight.120);
+  }
+  .text12Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.12);
+    line-height: theme(lineHeight.120);
+  }
+  .text12Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.12);
+    line-height: theme(lineHeight.120);
+  }
+  .text12Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.12);
+    line-height: theme(lineHeight.120);
+  }
+  .text12Uppercase {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.12);
+    line-height: theme(lineHeight.120);
+    letter-spacing: theme(letterSpacing.regular);
+    text-transform: uppercase;
+  }
+
+  .paragraph13 {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.13);
+    line-height: theme(lineHeight.150);
+  }
+  .paragraph48Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.48);
+    line-height: theme(lineHeight.130);
+  }
+  .paragraph40Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.40);
+    line-height: theme(lineHeight.130);
+  }
+  .paragraph36Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.36);
+    line-height: theme(lineHeight.130);
+  }
+  .paragraph32Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.32);
+    line-height: theme(lineHeight.140);
+  }
+  .paragraph24Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.24);
+    line-height: theme(lineHeight.150);
+  }
+  .text22Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.22);
+    line-height: theme(lineHeight.120);
+  }
+  .paragraph20Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.20);
+    line-height: theme(lineHeight.150);
+  }
+  .text18Semibold {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.18);
+    line-height: theme(lineHeight.120);
+  }
+  .paragraph16Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.16);
+    line-height: theme(lineHeight.150);
+  }
+  .paragraph16Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.16);
+    line-height: theme(lineHeight.150);
+  }
+  .paragraph14Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.14);
+    line-height: theme(lineHeight.150);
+  }
+  .paragraph14Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.14);
+    line-height: theme(lineHeight.150);
+  }
+  .text13Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.13);
+    line-height: theme(lineHeight.120);
+  }
+  .paragraph12Regular {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.regular);
+    font-size: theme(fontSize.12);
+    line-height: theme(lineHeight.160);
+  }
+  .paragraph12Medium {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.medium);
+    font-size: theme(fontSize.12);
+    line-height: theme(lineHeight.160);
+  }
+  .calendarTitle {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.18);
+    line-height: theme(lineHeight.120);
+  }
+
+  .orderTotal {
+    font-family: theme(fontFamily.sans);
+    font-style: normal;
+    font-weight: theme(fontWeight.semibold);
+    font-size: theme(fontSize.18);
+    line-height: theme(lineHeight.120);
+  }
+
+  .stepper-main-section {
+    @apply bg-whiteBlack-100;
+    padding: 19px 31px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+  }
+  .promocode-product-details {
+    @apply bg-whiteBlack-100;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 24px;
+  }
+  .products-assets-checkbox {
+    border: 1px solid #f3f3f4;
+    @apply bg-whiteBlack-100;
+    border-radius: 4px;
+  }
+  .products-assets-checkbox > div {
+    border-bottom: 1px solid #f3f3f4;
+  }
+  .date-picker-section .react-datepicker__input-container input {
+    width: inherit;
+    padding: 8px 12px 8px 40px;
+    border-radius: 4px;
+    @apply paragraph14Regular border-neutral-200 text-neutral-800;
+  }
+  .assets-table table {
+    border-spacing: 0;
+    width: 100%;
+    @apply bg-whiteBlack-100;
+  }
+  .assets-table {
+    border-radius: 10px;
+    border: 1px solid theme(colors.neutral.200);
+  }
+  .assets-table table tr :last-child td {
+    border-bottom: 0;
+  }
+  .assets-table table thead {
+    @apply bg-blue-100;
+  }
+  .assets-table table tbody tr:hover {
+    @apply bg-blue-100;
+    cursor: pointer;
+  }
+  .assets-table .sticky-left {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    background: white;
+    box-shadow: 2px 0px 3px -3px rgba(0, 0, 0, 0.5) inset;
+  }
+  .sticky-right {
+    position: sticky;
+    right: 0;
+    z-index: 10;
+    background: white;
+    box-shadow: 2px 0px 3px -3px rgba(0, 0, 0, 0.5) inset;
+  }
+  th.sticky-left,
+  th.sticky-right {
+    background: #f6f9ff;
+  }
+  .commission-category-table table td {
+    border-right: 2px solid theme(colors.neutral.100);
+  }
+
+  .commission-category-table table th {
+    border-right: 2px solid theme(colors.neutral.100) !important;
+  }
+
+  .assets-table table th {
+    border-bottom: 1px solid theme(colors.neutral.100);
+    border-right: 1px solid theme(colors.neutral.100);
+  }
+  .assets-table table th button:focus span svg,
+  .assets-table table td button:focus span svg {
+    fill: theme(colors.primary.600);
+  }
+  .assets-table table th button:hover span svg {
+    fill: theme(colors.primary.600);
+  }
+  .assets-table table th .action-btn span,
+  .assets-table table td .action-btn span {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .assets-table-block {
+    @apply rounded-lg;
+  }
+  .empty-section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 185px);
+    align-items: center;
+  }
+
+  /* Custom classNames */
+  .search-icon {
+    @apply absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none;
+  }
+  .check-box-block {
+    @apply text-green900 border-green900 h-4 w-4 rounded-[50%];
+  }
+  .cancelButton {
+    @apply mx-4 px-[31px] py-0.5;
+  }
+  .text-sm-red-error {
+    @apply text-sm text-red-500;
+  }
+  .standard-label {
+    @apply block pt-2 pb-1 text-xs font-medium;
+  }
+  .button-style {
+    @apply w-full px-4 py-2 font-bold text-white bg-gray-700 rounded hover:bg-gray-600;
+  }
+  .horizontalline {
+    @apply my-5;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .stepper-main-section {
+    padding: 15px 15px;
+  }
+}
+.stepper-main-widget-section {
+  padding: 12px 12px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-gray);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

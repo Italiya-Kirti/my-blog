@@ -1,0 +1,38 @@
+:root {
+  --color-primary-400: #accdff;
+  --color-primary-500: #89b8ff;
+  --color-primary: #2f69fe;
+  --color-primary-700: #2a5de3;
+  --color-primary-800: #2451c4;
+  --color-primary-900: #1d42a0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .solidInput input {
+    @apply h-12 rounded-none rounded-t-md border-x-0 border-t-0 bg-neutral-50 text-neutral-1000 focus:ring-0;
+  }
+  @-moz-document url-prefix() {
+    .scrollbar {
+      scrollbar-width: thin;
+      scrollbar-color: theme(colors.primary.600) #e4e4f2;
+    }
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    background: #e4e4f2;
+    border-radius: 4px;
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: theme(colors.neutral.400);
+    border-radius: 4px;
+  }
+}
