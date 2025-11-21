@@ -1,10 +1,7 @@
 import defaultTheme from "tailwindcss/defaultTheme";
-import flowbitePlugin from "flowbite/plugin";
 
 const config = {
   content: [
-    "./node_modules/flowbite/**/*.js",
-    "./node_modules/flowbite-react/**/*.js",
     "./public/**/*.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
@@ -30,12 +27,12 @@ const config = {
           100: "#F2F6FF",
           200: "#E5EEFF",
           300: "#C8DEFF",
-          400: "var(--color-primary-400)",
-          500: "var(--color-primary-500)",
-          600: "var(--color-primary)",
-          700: "var(--color-primary-700)",
-          800: "var(--color-primary-800)",
-          900: "var(--color-primary-900)",
+          400: "#6BA3FF",
+          500: "#4488FF",
+          600: "#2A5DE3",
+          700: "#2350C8",
+          800: "#1D43AD",
+          900: "#16358E",
           1000: "#152E72",
         },
         neutral: {
@@ -119,10 +116,8 @@ const config = {
         ...defaultTheme.backgroundColor,
         overlay: "rgba(0, 0, 0, 0.5)",
       },
-      fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        site: ["Source Sans Pro", ...defaultTheme.fontFamily.sans],
-      },
+      // Using default system fonts only - no custom fonts
+      fontFamily: defaultTheme.fontFamily,
       fontSize: {
         none: "0px",
         12: "12px",
@@ -200,7 +195,7 @@ const config = {
       },
     },
   },
-  plugins: [flowbitePlugin],
+  plugins: [],
 };
 
 export default config;
