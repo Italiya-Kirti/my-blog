@@ -1,5 +1,6 @@
-// Custom theme for Flowbite React components
-export const customTheme = {
+import type { NavbarTheme } from "flowbite-react"
+
+const Navbar: { navbar: NavbarTheme } = {
   navbar: {
     root: {
       base: "bg-transparent px-2 py-2.5 sm:px-4",
@@ -44,7 +45,10 @@ export const customTheme = {
     toggle: {
       base: "inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden",
       icon: "h-6 w-6 shrink-0",
+      title: "",
     },
   },
-};
+}
+
+export default Navbar
 
