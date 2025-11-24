@@ -1,5 +1,7 @@
+import flowbite from "flowbite/plugin";
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
+  darkMode: false, // Disable dark mode completely
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -9,7 +11,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    require("flowbite/plugin")
-  ],
+  plugins: [flowbite],
 };
+export default config;

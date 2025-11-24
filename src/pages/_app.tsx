@@ -1,7 +1,13 @@
 import "@/theme/globals.css";
 import "flowbite";
+import { ThemeProvider } from "flowbite-react";
 import type { AppProps } from "next/app";
+import { customTheme } from "@/theme/flowbite-theme";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <ThemeProvider theme={customTheme}>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
