@@ -3,7 +3,7 @@ import type { NavbarTheme } from "flowbite-react"
 const Navbar: { navbar: NavbarTheme } = {
   navbar: {
     root: {
-      base: "bg-transparent px-2 py-2.5 sm:px-4",
+      base: "!bg-transparent px-2 py-2.5 sm:px-4",
       rounded: {
         on: "rounded",
         off: "",
@@ -32,13 +32,13 @@ const Navbar: { navbar: NavbarTheme } = {
       },
     },
     link: {
-      base: "block py-2 pr-4 pl-3 md:p-0 relative font-medium text-base transition-all duration-200",
+      base: "block py-2 pr-4 pl-3 md:p-0 relative font-medium text-base !transition-none hover:!bg-transparent",
       active: {
-        on: "text-white bg-blue-700 md:bg-transparent md:text-white",
-        off: "text-gray-800 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-white",
+        on: "!text-white !bg-blue-700",
+        off: "!text-black hover:!text-black",
       },
       disabled: {
-        on: "text-gray-400 hover:cursor-not-allowed dark:text-gray-600",
+        on: "!text-gray-400",
         off: "",
       },
     },

@@ -1,3 +1,4 @@
+import Footer from "@/components/elements/Footer"
 import Header from "@/components/elements/Header"
 
 const DashboardLayout = ({
@@ -7,9 +8,12 @@ const DashboardLayout = ({
 }) => {
 
   return (
-    <div className={"relative h-screen overflow-hidden flex flex-col"}>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex flex-col">
       <Header />
-      {children}
+      <main className="flex-1">
+        {children}
+      </main>
+      <Footer />
     </div>
   )
 }

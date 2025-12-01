@@ -3,8 +3,9 @@ import flowbite from "flowbite/plugin";
 const config = {
   darkMode: false, // Disable dark mode completely
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
     "node_modules/flowbite/**/*.{js,jsx,ts,tsx}",
   ],
