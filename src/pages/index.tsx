@@ -30,7 +30,7 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 relative z-20">
           <div className="max-w-3xl">
-            <Badge className="mb-6 bg-amber-500 text-white border-none px-4 py-2 text-sm font-semibold shadow-lg">
+            <Badge className="mb-6 bg-amber-500 text-white border-none px-4 py-2 text-sm font-semibold shadow-lg w-fit">
               Welcome to BlogHub
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
@@ -163,7 +163,7 @@ export default function Home() {
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Latest Articles</h2>
           <Link href="/blog">
-            <Button outline className="gap-2">
+            <Button outline className="gap-2 hover:bg-blue-500 hover:text-white focus:ring-0 border-slate-900 hover:border-blue-500">
               View All
               <ArrowRight className="w-4 h-4" />
             </Button>
